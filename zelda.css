@@ -22,7 +22,7 @@ body
 	font-size: large;
 	font-family:fangsong;
 	text-orientation: upright;
-	background-color: rgb(245,245,220);
+	background-color: rgb(231,232,207);
 }
 
 
@@ -60,7 +60,7 @@ ul li
 
 p
 {
-	color : rgb(0,93,15);
+	color : rgb(35,42,92);
 	margin-left: 20%;
 	margin-right: 20%;
 	text-align: justify, center;
