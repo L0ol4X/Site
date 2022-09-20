@@ -26,6 +26,26 @@ body
 }
 
 
+figure
+{
+	padding-left:14%;
+	padding-right:14%;
+	margin-top:-0.1%;
+}
+
+
+figcaption
+{
+	border-color :black;
+	border-style:solid;
+	border-width:thin;
+	text-align: center;
+	font-size:small;
+	color:black;
+	padding:0.1%;
+}
+
+
 ul li
 {
 	text-align: center;
