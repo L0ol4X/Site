@@ -137,3 +137,19 @@ aside
 	table-layout: center;
 	width:73%
 }
+
+iframe
+{
+	modestbranding:1;
+	showinfo:0;
+	width:auto;
+	height:100%;
+}
+
+.flex
+{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	flex-direction:row;
+}

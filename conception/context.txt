@@ -1,0 +1,86 @@
+﻿Contexte :
+
+Le sujet principal de ce site est le jeu vidéo Zelda:Breath of the Wild (BOTW). Sur internet, on peut retrouver 
+beaucoup de sites de la sorte, toutefois, chacun a ciblé un type donné (ex : les recettes du jeu, les armes du 
+héros ou encore ses tenues). Contrairement à ceux-ci , le site Zelda:Breath of the Wild regroupe la totalité des
+ options disponibles et est accessible et compréhensible de tous. Il dispose de beaucoup de liens et solutions 
+qui pourront certainement aider plus d’un joueur à avancer dans le jeu. Le créateur de jeu le plus connu des joueurs,
+ Nintendo, publie fréquemment des annonces à propos de ses jeux, le site dispose en parallèle d’une section 
+actualités qui publie ces annonces(nouveaux jeux, Nintendo direct, contenu ajouté).
+
+
+
+
+
+Persona :
+1)
+
+Gary Galarneau
+59 ans 
+Profession : Boulanger
+niveau en informatique : aide sa mère au téléphone lorsqu’il suffit de brancher débrancher l’alimentation
+
+Caractéristiques
+-a un fils de 17 ans qui adore les jeux vidéos qui l’a converti à la switch en lui prêtant Zelda : Breath of the Wild, 
+-horaires plutôt contraignantes donc pas forcément le temps d’y passer des heures
+-adore les plantes et doit s’organiser pour s’occuper de son jardin également
+
+
+Objectifs
+-il souhaite faire des performances pour impressionner son fils 
+-comme les solutions ne sont pas longues si il bloque dessus , elles sont très accessibles et peu coûteuses en temps.
+-objectif final : finir le jeu pour débattre avec son fils
+
+Scénario
+Etant donné que Gary dispose du jeu et l’a commencé, certaines quêtes, à moins d’avoir une certaine logique, sont très dures à compléter il se rendra sur le site.
+Y trouvera beaucoup plus que prévu et le montrera à son fils qui pourra l’utiliser à tous les horaires de la journée.
+Son fils pourra en parler avec ses amis y ayant joué ou le monter sur un forum aux personnes cherchant des réponses.
+
+
+2)
+ Edith Roux
+ 32 ans
+ Profession : Coach scolaire en réorientation
+ niveau en informatique : elle s’oblige à aller sur le site arte pour revoir les diffusions de documentaire sur les baleines, 
+ sait activer le bluetooth et configurer un nouveau réseau wifi
+
+
+Caractéristiques
+-adore aider les enfants, est très douce et calme avec eux
+-veut à terme être avocat pour rendre son père fier (qui ne sait pas qu’elle est escorte)
+-
+
+Objectifs
+-apprendre à jouer à Zelda pour aider un élève tout en économisant du temps pour étudier
+-rendre fier son père
+-avoir sa maison
+
+Scénario
+-cherche un site de solutions
+-regarde les vidéos de solutions pour les mémoriser et aider le client
+-pourra partager sur des forums le site qui l’aura aidée à réussir le jeu
+
+
+
+
+
+
+User story :
+
+Gary
+Le réveil de gary sonne à 2h02, comme tous les matins. Il se tourne pour l'éteindre et se lève doucement pour aller se doucher.
+10 minutes plus tard, une fois tout ceci fait, Gary est fin prêt pour aller travailler à la boulangerie un étage en dessous.
+Sa journée, comme toujours, s'annonce longue et fatiguante mais aujourd'hui Gary va pimenter sa soirée avec le jeu de son fils:
+Zelda:Breath of the Wild. Il sait pertinemment qu'il n'y passera pas une heure chaque soir mais comme il souhaite avancer dans 
+le jeu, il aura besoin du site pour avancer sur certaines quêtes qui nécessitent une maîtrise parfaite de toutes les sortes de 
+techniques.
+
+
+Edith
+Edith est coach scolaire la journée, mais quand baisse le jour, elle se penche ardemment sur ses études de droit pour optimiser
+ses chances de réussite. Toutefois, il y a de cela deux semaines, un élève lui a parlé de son jeu favori : Zelda:Breath of the Wild
+et s'y étant interessée, elle l'a imité. Depuis, dès qu'elle a du temps, elle joue au jeu et a trouvé le site pour l'aider à trouver
+toutes les tenues de Link, son objectif principal.
+
+
+
