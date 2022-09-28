@@ -13,6 +13,7 @@ video
 	width: 40%;
 	height: auto;
 	autoplay:1;
+	border-radius: 50px/35px;
 }
 
 
@@ -53,6 +54,16 @@ ul li
 	list-style-position: inside;
 }
 
+.navbartitle
+{
+	position : sticky;
+	top :0;
+	background-color: black;
+	color: rgb(152,251,152);
+	margin: auto;
+	border-radius: 50px/35px;
+}
+
 .link
 {
 	color:  rgb(66,162,229);
@@ -71,6 +82,7 @@ img
 	align-content: center;
 	max-width: 100%;
 	height: auto;
+	border-radius: 50px/35px;
 }
 
 h1
@@ -79,14 +91,22 @@ h1
 	margin-right: 16%;
 	margin-left: 16%;
 	color: rgb(152,251,152);
+	border-radius: 50px/35px;
+	padding-top:3px;
+	height: 50px;
 }
 
-.navbar
+.fixed
 {
-	background-color: black;
-	color: rgb(152,251,152);
-	margin: auto;
+	position: fixed;
+	right:0;
+	display: flex;
+	flex-direction: column;
+	margin-right:1%;
+	padding-right:3%;
+
 }
+
 
 button
 {
@@ -95,12 +115,14 @@ button
 	border-style: hidden;
 	border-width: thin;
 	color: rgb(152,251,152);
-	width: 5%;
-	float: top;
-	font-size: large;
+	width: 11%;
+	font-size: 100%;
 	font-family:fangsong;
 	cursor:pointer;
+	border-radius: 50px/35px;
 }
+
+
 
 aside
 {
@@ -110,10 +132,6 @@ aside
 	margin-right: 20%;
 }
 
-.l
-{
-	width:27%;
-}
 
 .tenue
 {
@@ -146,10 +164,21 @@ iframe
 	height:100%;
 }
 
+.flexbar
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:row;
+	margin-bottom: -2px;
+	z-index: 10;
+}
+
 .flex
 {
 	display:flex;
-	justify-content:space-evenly;
+	justify-content: space-around;
 	align-items:center;
 	flex-direction:row;
+	margin-bottom: -2px;
 }

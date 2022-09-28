@@ -7,9 +7,20 @@
 	<link rel="stylesheet" href="zelda.css" type="text/css" media="screen" />
 </head>
 	<body>
-	<a class ="link" href="Zelda.html">Home</a>
-	<br>
-	<h1>Equipements</h1>
+	<div class="fixed">
+		<button onclick="window.location.href='Zelda.html';">Home</button>
+		<br>
+		<button onclick="window.location.href='#Equip';"> Equipements </button>
+		<br>
+		<button onclick="window.location.href='#Armes';">Armes</button>
+		<br>
+		<button onclick="window.location.href='#shield';"> Boucliers </button>
+		<br>
+		<button onclick="window.location.href='#arc';"> Arcs </button>
+		<br>
+		<button onclick="window.location.href='#cuisine';"> Cuisine </button>
+	</div>
+	<h1 id="Equip">Equipements</h1>
 	<table class="tab">
 		<br>
 		<tr>
@@ -45,7 +56,7 @@
 		<tr>
 			<td>Tenue Sheikah
 			<img class="tenue" src="img/silencio.jpg" title="tenue Sheikah" alt="Sheikah"></td>
-			<td>Tenue</td>
+			<td>Tenue (type silencio)</td>
 			<td>Tenue à retrouver également aux <i>Quatre Petites Mains</i></td>
 		</tr>
 		<tr>
@@ -57,19 +68,19 @@
 		<tr>
 			<td>Tenue de Pierre
 			<img class="tenue" src="img/goron.jpg" title="tenue Goron" alt="Goron"></td>
-			<td>Tenue</td>
+			<td>Tenue (type ignifus)</td>
 			<td>Vendue à la boutique du <i>Bras d'acier</i> au village Goron</td>
 		</tr>
 		<tr>
 			<td>Tenue Piaf
 			<img class="tenue" src="img/piaf.jpg" title="tenue Piaf" alt="Piaf"></td>
-			<td>Tenue</td>
+			<td>Tenue (type glagla)</td>
 			<td>Vendue dans la case boutique du village Piaf</td>
 		</tr>
 		<tr>
 			<td>Tenue Zora
 			<img class="tenue" src="img/zora.jpg" title="tenue Zora" alt="Zora"></td>
-			<td>Tenue</td>
+			<td>Tenue (vitesse nage augmentée)</td>
 			<td>Casque zora : dans le lac toto au nord du Domaine zora
 			<br>
 			Armure zora : Remise par Dorefah lors du premier discours avec lui
@@ -79,7 +90,7 @@
 		<tr>
 			<td>Tenue Foudre
 			<img class="tenue" src="img/foudre.jpg" title="tenue Foudre" alt="Foudre"></td>
-			<td>Tenue</td>
+			<td>Tenue (type isolant)</td>
 			<td>Casque isolant : Quête de Peur panique de la foudre
 			<br>
 			Combinaison isolante : Disponible dans un coffre du sanctuaire Toh'Yassa
@@ -92,7 +103,7 @@
 		<tr>
 			<td>Tenue d'escalade
 			<img class="tenue" src="img/esc.jpg" title="tenue Escalade" alt="Escalade"></td>
-			<td>Tenue</td>
+			<td>Tenue (vitesse escalade augmentée)</td>
 			<td>Obtenue dans des sanctuaires :
 			<br>
 			Bandana d'escalade : Ri'Dahni
@@ -106,13 +117,13 @@
 		<tr>
 			<td>Tenue de Demoiselle
 			<img class ="tenue" src="img/dem.jpg" title="tenue Demoiselle" alt="Demoiselle"></td>
-			<td>Tenue</td>
+			<td>Tenue (type feinte)</td>
 			<td>Obtenue dans la cité Gerudo ou sur le toit de l'auberge de l'Oasis</td>
 		</tr>
 		<tr>
 			<td>Tenue des Sablons
 				<img class="tenue" src="img/sablons.jpg" title="tenue des Sablons" alt"Sablons"></td>
-			<td>Tenue</td>
+			<td>Tenue (type pikpik)</td>
 			<td>Vendue dans le <i>Club Secret Gerudo</i> ou dans le village d"Euzéro</td>
 		</tr>
 		<tr>
@@ -125,7 +136,7 @@
 		<tr>
 			<td>Tenue Barbare
 				<img class="tenue" src="img/barbare.jpg" title="tenue barbare" alt="Barbare"></td>
-			<td>Tenue</td>
+			<td>Tenue (force frappe augmentée)</td>
 			<td>Obtenue dans des santuaires :
 			<br>
 			Casque barbare : Tou'Karo
@@ -139,14 +150,14 @@
 		<tr>
 			<td>Tenue Archéonique
 				<img class="tenue" src="img/arch.jpg" title="tenue Archéonique" alt="Archéonique"></td>
-			<td>Tenue</td>
+			<td>Tenue (réduction dégats gardiens)</td>
 			<td>Vendue au Laboratoire antique d'Akkala à condition de disposer des
 				matériaux nécessaires</td>
 		</tr>
 		<tr>
 			<td>Tenue Noire
 				<img class="tenue" src="img/black.jpg" title="tenue Noire" alt="Noire"></td>
-			<td>Tenue</td>
+			<td>Tenue (vitesse de nuit augmentée + <br>dissimulation)</td>
 			<td>Vendue à la boutique Kilton</td>
 		</tr>
 		<tr>
@@ -166,7 +177,7 @@
 	</table>
 	<br>
 	<br>
-	<h1>Armes</h1>
+	<h1 id="Armes">Armes</h1>
 	<br>
 	<table class="tab">
 		<tr>
@@ -363,7 +374,7 @@
 
 	<br>
 	<br>
-	<h1>Boucliers</h1>
+	<h1 id="shield">Boucliers</h1>
 	<table class="tab">
 		<tr>
 			<td colspan="11"><img class="m" src="img/shieldsl1.jpg" title="Shields1" alt="Shields"></td>
@@ -417,7 +428,7 @@
 
 	<br>
 	<br>
-	<h1>Arcs et Flèches</h1>
+	<h1 id="arc">Arcs et Flèches</h1>
 	<br>
 	<table class="tab">
 		<tr>
@@ -477,7 +488,7 @@
 	</table>
 	<br>
 	<br>
-	<h1>Cuisine et Recettes</h1>
+	<h1 id="cuisine">Cuisine et Recettes</h1>
 	<br>
 	<table>
 		<tr>
