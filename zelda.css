@@ -96,18 +96,6 @@ h1
 	height: 50px;
 }
 
-.fixed
-{
-	position: fixed;
-	right:0;
-	display: flex;
-	flex-direction: column;
-	margin-right:1%;
-	padding-right:3%;
-
-}
-
-
 button
 {
 	background-color: black;
@@ -118,9 +106,20 @@ button
 	width: 11%;
 	font-size: 100%;
 	font-family:fangsong;
+	display:block;
 	cursor:pointer;
 	border-radius: 50px/35px;
 }
+.fixed
+{
+	right:0;
+	position: fixed;
+	margin-right:1%;
+	padding-right:3%;
+}
+
+
+
 
 
 
