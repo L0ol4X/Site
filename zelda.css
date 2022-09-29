@@ -215,6 +215,13 @@ iframe
 	box-shadow: 3px 3px 10px black;
 }
 
+.imgrightpp
+{
+	max-width: 65%;
+	float: right;
+	box-shadow: 3px 3px 10px black;
+}
+
 .cleft
 {
 	clear: left;
@@ -244,7 +251,6 @@ iframe
 	float: right;
 	border-radius: 50px/35px;
 }
-
 
 
 .item{
