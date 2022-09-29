@@ -96,27 +96,30 @@ h1
 	height: 50px;
 }
 
-button
+.button
 {
 	background-color: black;
 	border-color: black;
 	border-style: hidden;
 	border-width: thin;
 	color: rgb(152,251,152);
-	width: 11%;
+	width: 128px;
 	font-size: 100%;
 	font-family:fangsong;
 	display:block;
 	cursor:pointer;
 	border-radius: 50px/35px;
+	text-decoration: none;
 }
+
+
 .fixed
 {
 	right:0;
+	top: 0;
 	position: fixed;
 	margin-right:1%;
-	padding-right:3%;
-}
+	padding-right:2%;}
 
 
 
@@ -163,6 +166,7 @@ iframe
 	height:100%;
 }
 
+
 .flexbar
 {
 	display:flex;
@@ -181,3 +185,56 @@ iframe
 	flex-direction:row;
 	margin-bottom: -2px;
 }
+
+.imgleft
+{
+	max-width: 55%;
+	float: left;
+	box-shadow: 3px 3px 10px black;
+}
+
+.imgright
+{
+	max-width: 50%;
+	float: right;
+	box-shadow: 3px 3px 10px black;
+}
+
+.imgrightp
+{
+	max-width: 60%;
+	float: right;
+	box-shadow: 3px 3px 10px black;
+}
+
+.cleft
+{
+	clear: left;
+}
+
+.clright
+{
+	clear: right;
+}
+
+.left 
+{
+	border:  1px solid black;
+	padding-bottom: 3px;
+	padding-top: 1px;
+	max-width: 55%;
+	float: left;
+	border-radius: 50px/35px;
+}
+
+.right 
+{
+	border:  1px solid black;
+	padding-bottom: 3px;
+	padding-top: 1px;
+	max-width: 60%;
+	float: right;
+	border-radius: 50px/35px;	
+}
+
+
