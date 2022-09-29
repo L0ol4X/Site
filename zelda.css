@@ -21,7 +21,7 @@ body
 {
 	text-align: center;
 	font-size: large;
-	font-family:fangsong;
+	font-family: fangsong;
 	text-orientation: upright;
 	background-color: rgb(231,232,207);
 }
@@ -71,6 +71,7 @@ ul li
 
 p
 {
+	font-family: system-ui;
 	color : rgb(35,42,92);
 	margin-left: 20%;
 	margin-right: 20%;
@@ -193,6 +194,13 @@ iframe
 	box-shadow: 3px 3px 10px black;
 }
 
+.imgleftp
+{
+	max-width: 55%;
+	float: left;
+	box-shadow: 3px 3px 10px black;
+}
+
 .imgright
 {
 	max-width: 50%;
@@ -202,7 +210,7 @@ iframe
 
 .imgrightp
 {
-	max-width: 60%;
+	max-width: 58%;
 	float: right;
 	box-shadow: 3px 3px 10px black;
 }
@@ -217,7 +225,7 @@ iframe
 	clear: right;
 }
 
-.left 
+.left
 {
 	border:  1px solid black;
 	padding-bottom: 3px;
@@ -227,14 +235,24 @@ iframe
 	border-radius: 50px/35px;
 }
 
-.right 
+.right
 {
 	border:  1px solid black;
 	padding-bottom: 3px;
 	padding-top: 1px;
 	max-width: 60%;
 	float: right;
-	border-radius: 50px/35px;	
+	border-radius: 50px/35px;
 }
 
 
+
+.item{
+  width:550px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-bottom: 1px;
+  float:left;
+}
