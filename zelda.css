@@ -8,10 +8,6 @@ table, td, th
 }
 
 
-.logo
-{
-	size: 10px;
-}
 
 video
 {
@@ -312,4 +308,9 @@ iframe
 .logofont
 {
 	color: rgb(152,251,152);
+}
+
+.logo
+{
+	border-radius: 20px/15px;
 }
