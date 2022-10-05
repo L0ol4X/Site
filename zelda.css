@@ -8,12 +8,18 @@ table, td, th
 }
 
 
+.logo
+{
+	size: 10px;
+}
+
 video
 {
 	width: 40%;
 	height: auto;
 	autoplay:1;
 	border-radius: 50px/35px;
+	z-index:10;
 }
 
 
@@ -62,6 +68,7 @@ ul li
 	color: rgb(152,251,152);
 	margin: auto;
 	border-radius: 50px/35px;
+	z-index: 100;
 }
 
 .link
@@ -158,6 +165,8 @@ aside
 	table-layout: center;
 	width:73%
 }
+
+
 
 iframe
 {
@@ -261,4 +270,46 @@ iframe
   border: 1px solid transparent;
   margin-bottom: 1px;
   float:left;
+}
+
+.dropdown {
+  position: fixed;
+	top: 0;
+	margin-right: 30px;
+	margin-top: 23px;
+	right: 0;
+	background-color: transparent;
+	border-color: black;
+	border-style: hidden;
+	border-width: thin;
+	width: 100px;
+	font-size: 100%;
+	font-family:fangsong;
+	cursor:pointer;
+	border-radius:50px/35px;
+	text-decoration: none;
+  display: inline-block;
+	z-index:200;
+}
+
+.dropdown-aff {
+  display: none;
+  position: absolute;
+	margin-left: 22px;
+	background-color: transparent;
+	border-color: black;
+	border-style: hidden;
+	border-width: thin;
+	width: 66px;
+	cursor:pointer;
+	border-radius: 10px/5px;
+}
+
+.dropdown:hover .dropdown-aff {
+  display: block;
+}
+
+.logofont
+{
+	color: rgb(152,251,152);
 }
