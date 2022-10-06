@@ -49,11 +49,26 @@ figcaption
 }
 
 
-ul li
+.li
 {
 	text-align: center;
-	padding-right:3%;
-	list-style-position: inside;
+	
+}
+
+
+ul{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+	border-radius: 25px/10px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 30%;
+	margin: auto;
 }
 
 .navbartitle
@@ -67,14 +82,15 @@ ul li
 	z-index: 100;
 }
 
+
 .link
 {
-	color:  rgb(66,162,229);
+	color:  rgb(  94, 189, 179  );
 }
+
 
 p
 {
-	font-family: system-ui;
 	color : rgb(35,42,92);
 	margin-left: 20%;
 	margin-right: 20%;
@@ -98,10 +114,33 @@ h1
 	border-radius: 50px/35px;
 	padding-top:3px;
 	height: 50px;
+	text-shadow: 2px 2px #76d09c ;
 }
+
+.buttonbar
+{
+
+	text-shadow: 1px 1px #76d09c ;
+	background-color: black;
+	border-color: black;
+	border-style: hidden;
+	border-width: thin;
+	color: rgb(152,251,152);
+	width: 128px;
+	font-size: 100%;
+	font-family:fangsong;
+	display:block;
+	cursor:pointer;
+	text-decoration: none;
+	border-right: 1px solid #98fb98;
+}
+
+
 
 .button
 {
+
+	text-shadow: 1px 1px #76d09c ;
 	background-color: black;
 	border-color: black;
 	border-style: hidden;
@@ -115,6 +154,26 @@ h1
 	border-radius: 50px/35px;
 	text-decoration: none;
 }
+
+
+
+.buttonlast
+{
+
+	text-shadow: 1px 1px #76d09c ;
+	background-color: black;
+	border-color: black;
+	border-style: hidden;
+	border-width: thin;
+	color: rgb(152,251,152);
+	width: 128px;
+	font-size: 100%;
+	font-family:fangsong;
+	display:block;
+	cursor:pointer;
+	text-decoration: none;
+}
+
 
 
 .fixed
@@ -232,10 +291,14 @@ iframe
 	clear: left;
 }
 
+
+
 .clright
 {
 	clear: right;
 }
+
+
 
 .left
 {
@@ -269,6 +332,8 @@ iframe
 }
 
 .dropdown {
+
+	text-shadow: 1px 1px #76d09c ;
   position: fixed;
 	top: 0;
 	margin-right: 30px;
@@ -313,4 +378,25 @@ iframe
 .logo
 {
 	border-radius: 20px/15px;
+}
+
+footer
+{
+
+	text-shadow: 2px 2px #76d09c ;
+	text-align:center;
+  position: fixed;
+  bottom:6px;
+  right: 0;
+  display:inline-block;
+  vertical-align:top;
+  font-size:13px;
+	height: 25px;
+}
+
+
+
+h2
+{
+	text-shadow: 1px 1px  #010a59  ;
 }
