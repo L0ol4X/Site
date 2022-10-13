@@ -1,22 +1,3 @@
-
-/*Modifie l'alignement des tableaux*/
-table, td, th{
-	margin: auto;
-	text-align: center;
-	border-width: thin;
-	border-color: black;
-	border-style: solid;
-}
-
-
-/*Set la taille de la vidéo et son visuel puis indique qu'il faut qu'elle passe en arrière plan*/
-video{
-	width: 40%;
-	height: auto;
-	border-radius: 50px/35px;
-	z-index:10;
-}
-
 /*Donne un aspect visuel global à tout ce qui est entouré par body*/
 body{
 	text-align: center;
@@ -37,6 +18,26 @@ header{
 	border-radius: 50px/35px;
 	z-index: 100;
 }
+
+
+/*Modifie l'alignement des tableaux*/
+table, td, th{
+	margin: auto;
+	text-align: center;
+	border-width: thin;
+	border-color: black;
+	border-style: solid;
+}
+
+
+/*Set la taille de la vidéo et son visuel puis indique qu'il faut qu'elle passe en arrière plan*/
+video{
+	width: 40%;
+	height: auto;
+	border-radius: 50px/35px;
+	z-index:10;
+}
+
 
 /*Définit une largeur et hauteur pour les figures*/
 figure{
@@ -98,6 +99,47 @@ h1{
 }
 
 
+/*Effets donnés à aside*/
+aside{
+	border-style: inset;
+	border-color: rgb(60,119,113);
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+/*Permet d'afficher les listes de cette manière*/
+.ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	list-style-type: '⚔';
+	color: rgb(35,42,92);;
+}
+
+
+/*Permet d'afficher la barre nav avec tous ces éléments flexbox*/
+.flexbar{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:row;
+	margin-bottom: -2px;
+	z-index: 10;
+}
+
+
+/*Permet à l'item "Zelda Breath of The Wild" d'être rapproché du menu*/
+.flex{
+	display:flex;
+	justify-content: space-around;
+	align-items:baseline;
+	flex-direction:row;
+	margin-bottom: -2px;
+}
+
+
 /*Effets ajoutés à ce qui est dans la navbar, de sorte à ce que cela ressemble à des
 boutons*/
 .buttonbar{
@@ -150,76 +192,6 @@ droite de délimitation*/
 	text-decoration: none;
 }
 
-
-/*classe utilisée dans objects.html afin d'afficher le menu sur la droite*/
-.fixed{
-	right:0;
-	top: 0;
-	position: fixed;
-	margin-right:1%;
-	padding-right:2%;
-}
-
-
-
-/*Effets donnés à aside*/
-aside{
-	border-style: inset;
-	border-color: rgb(60,119,113);
-	margin-left: 20%;
-	margin-right: 20%;
-}
-
-
-/*Caractéristiques des images tenues afin de les afficher dans le tableau*/
-.tenue{
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	max-width: 100%;
-	height: auto;
-}
-
-/*permet de faire un meilleur affichage de cases du tableau*/
-.tab{
-	text-align: center;
-	table-layout: center;
-	width:73%
-}
-
-/*Permet d'afficher les listes de cette manière*/
-.ul{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	list-style-type: '⚔';
-	color: rgb(35,42,92);;
-}
-
-
-
-/*Permet d'afficher la barre nav avec tous ces éléments flexbox*/
-.flexbar{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	flex-direction:row;
-	margin-bottom: -2px;
-	z-index: 10;
-}
-
-
-/*Permet à l'item "Zelda Breath of The Wild" d'être rapproché du menu*/
-.flex{
-	display:flex;
-	justify-content: space-around;
-	align-items:baseline;
-	flex-direction:row;
-	margin-bottom: -2px;
-}
-
-
 /*bouton contact*/
 .dropdownlog{
 	text-shadow: 2px 2px 14px #76d09c ;
@@ -236,7 +208,6 @@ aside{
   display: inline-block;
 	z-index:200;
 }
-
 
 /*contenu du bouton contact*/
 .dropdown-aff{

@@ -1,0 +1,25 @@
+
+/*Caractéristiques des images tenues afin de les afficher dans le tableau*/
+.tenue{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 100%;
+	height: auto;
+}
+
+/*permet de faire un meilleur affichage de cases du tableau*/
+.tab{
+	text-align: center;
+	table-layout: center;
+	width:73%
+}
+
+/*classe utilisée dans objects.html afin d'afficher le menu sur la droite*/
+.fixed{
+	right:0;
+	top: 0;
+	position: fixed;
+	margin-right:1%;
+	padding-right:2%;
+}
