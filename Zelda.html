@@ -8,21 +8,25 @@
 		<link rel="stylesheet" href="zelda.css" type="text/css" media="screen" />
 	</head>
 
-	<body>
 
-		<div class="navbartitle">
+	<header>
 			<h1 class="flex"> Zelda : Breath of the Wild </h1>
-			<p class="flexbar">
+			<div class="flexbar">
 				<a class="buttonbar" href='Zelda.html'> Home </a>
-				<a class="buttonbartodrop" href='lejeu.html'> Le jeu </a>
-				<a class="buttondrop" href='map.html'> Korogu map </a>
+				<div class="dropdown">
+					<button class="dropbtn">Le jeu</button>
+					<div class="dropdown-content">
+						<a href='lejeu.html'>Description</a>
+						<a href='map.html'> Korogu map</a>
+					</div>
+				</div>
 				<a class="buttonbar" href='lesmissions.html'> Missions </a>
 				<a class="buttonlast" href='Objects.html'> Objects </a>
-			</p>
+			</div>
+	</header>
 
-		</div>
 		<nav>
-	 		<div class="dropdown">
+	 		<div class="dropdownlog">
 				<p class="logofont">Contact</p>
 				<div class="dropdown-aff">
 					<a href="https://www.instagram.com/accounts/login/"><img class="logo" src="img/logoi.jpg"></a>
@@ -40,6 +44,7 @@
 		<br>
 		<br>
 
+		<body>
 		<div>
 			<h1>Actualités</h1>
 			<p>
