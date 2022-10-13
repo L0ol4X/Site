@@ -1,0 +1,28 @@
+/*Donne ces caractéristiques aux vidéos intégrées par iframe*/
+iframe{
+	modestbranding:1;
+	showinfo:0;
+	width:auto;
+	height:100%;
+}
+
+
+/*Permet à l'item "Zelda Breath of The Wild" d'être rapproché du menu*/
+.flex{
+	display:flex;
+	justify-content: space-around;
+	align-items:baseline;
+	flex-direction:row;
+	margin-bottom: -2px;
+}
+
+/*Permet d'afficher de la sorte chaque vidéo et sa description*/
+.item{
+  width:550px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-bottom: 1px;
+  float:left;
+}

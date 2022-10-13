@@ -1,0 +1,73 @@
+
+/*positionne l'image à gauche*/
+.imgleft{
+	max-width: 55%;
+	float: left;
+	box-shadow: 3px 3px 10px black;
+}
+
+
+/*positionne les petites images à gauche*/
+.imgleftp{
+	max-width: 55%;
+	float: left;
+	box-shadow: 3px 3px 10px black;
+}
+
+
+/*positionne les images à droite*/
+.imgright{
+	max-width: 50%;
+	float: right;
+	box-shadow: 3px 3px 10px black;
+}
+
+
+/*positionne les petites images à droite*/
+.imgrightp{
+	max-width: 58%;
+	float: right;
+	box-shadow: 3px 3px 10px black;
+}
+
+
+/*positionne les très petites images à droite*/
+.imgrightpp{
+	max-width: 65%;
+	float: right;
+	box-shadow: 3px 3px 10px black;
+}
+
+
+/*clear le positionement de gauche*/
+.cleft{
+	clear: left;
+}
+
+
+/*clear le positionnement de droite*/
+.clright{
+	clear: right;
+}
+
+
+/*Stylise les images/bloc de gauche*/
+.left{
+	border:  1px solid black;
+	padding-bottom: 3px;
+	padding-top: 1px;
+	max-width: 55%;
+	float: left;
+	border-radius: 50px/35px;
+}
+
+
+/*stylise les images/bloc de droite*/
+.right{
+	border:  1px solid black;
+	padding-bottom: 3px;
+	padding-top: 1px;
+	max-width: 60%;
+	float: right;
+	border-radius: 50px/35px;
+}

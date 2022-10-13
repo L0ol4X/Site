@@ -1,7 +1,6 @@
 
 /*Modifie l'alignement des tableaux*/
-table, td, th
-{
+table, td, th{
 	margin: auto;
 	text-align: center;
 	border-width: thin;
@@ -11,8 +10,7 @@ table, td, th
 
 
 /*Set la taille de la vidéo et son visuel puis indique qu'il faut qu'elle passe en arrière plan*/
-video
-{
+video{
 	width: 40%;
 	height: auto;
 	border-radius: 50px/35px;
@@ -41,16 +39,14 @@ header{
 }
 
 /*Définit une largeur et hauteur pour les figures*/
-figure
-{
+figure{
 	padding-left:14%;
 	padding-right:14%;
 	margin-top:-0.1%;
 }
 
 /*Définit le visuel des figure caption*/
-figcaption
-{
+figcaption{
 	border-color :black;
 	border-style:solid;
 	border-width:thin;
@@ -62,20 +58,17 @@ figcaption
 
 
 /*Lorsqu'un lien n'est pas encore visité*/
-a:link
-{
+a:link{
 	color:  rgb( 94, 189, 179 );
 }
 
 /*Une fois que le lien a été visité*/
-a:visited
-{
+a:visited{
 	color: rgb(90,180,185);
 }
 
 /*Effets sur toutes les balises de type p*/
-p
-{
+p{
 	color : rgb(35,42,92);
 	margin-left: 21%;
 	margin-right: 21%;
@@ -84,8 +77,7 @@ p
 }
 
 /*Effets de base apportés aux images*/
-img
-{
+img{
 	align-content: center;
 	max-width: 100%;
 	height: auto;
@@ -93,8 +85,7 @@ img
 }
 
 /*Effets apportés à toutes les balises de gros titre h1*/
-h1
-{
+h1{
 	background-color: black;
 	margin-right: 16%;
 	margin-left: 16%;
@@ -109,9 +100,7 @@ h1
 
 /*Effets ajoutés à ce qui est dans la navbar, de sorte à ce que cela ressemble à des
 boutons*/
-.buttonbar
-{
-
+.buttonbar{
 	text-shadow: 2px 2px 14px #76d09c ;
 	background-color: black;
 	border-color: black;
@@ -120,7 +109,6 @@ boutons*/
 	color: rgb(152,251,152);
 	width: 128px;
 	font-size: 100%;
-	font-family:fangsong;
 	display:block;
 	cursor:pointer;
 	text-decoration: none;
@@ -130,9 +118,7 @@ boutons*/
 
 /*Effets ajoutés à certains liens pour que cela ressemble à un bouton sur lequel on
 peut cliquer*/
-.button
-{
-
+.button{
 	text-shadow: 2px 2px 14px #76d09c ;
 	background-color: black;
 	border-color: black;
@@ -141,7 +127,6 @@ peut cliquer*/
 	color: rgb(152,251,152);
 	width: 128px;
 	font-size: 100%;
-	font-family:fangsong;
 	display:block;
 	cursor:pointer;
 	border-radius: 50px/35px;
@@ -151,9 +136,7 @@ peut cliquer*/
 
 /*Classe spéciale qui est comme buttonbar mais auquel il manque la couleur de la bordure
 droite de délimitation*/
-.buttonlast
-{
-
+.buttonlast{
 	text-shadow: 2px 2px 14px #76d09c ;
 	background-color: black;
 	border-color: black;
@@ -162,7 +145,6 @@ droite de délimitation*/
 	color: rgb(152,251,152);
 	width: 128px;
 	font-size: 100%;
-	font-family:fangsong;
 	display:block;
 	cursor:pointer;
 	text-decoration: none;
@@ -170,19 +152,18 @@ droite de délimitation*/
 
 
 /*classe utilisée dans objects.html afin d'afficher le menu sur la droite*/
-.fixed
-{
+.fixed{
 	right:0;
 	top: 0;
 	position: fixed;
 	margin-right:1%;
-	padding-right:2%;}
+	padding-right:2%;
+}
 
 
 
 /*Effets donnés à aside*/
-aside
-{
+aside{
 	border-style: inset;
 	border-color: rgb(60,119,113);
 	margin-left: 20%;
@@ -191,8 +172,7 @@ aside
 
 
 /*Caractéristiques des images tenues afin de les afficher dans le tableau*/
-.tenue
-{
+.tenue{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
@@ -201,8 +181,7 @@ aside
 }
 
 /*permet de faire un meilleur affichage de cases du tableau*/
-.tab
-{
+.tab{
 	text-align: center;
 	table-layout: center;
 	width:73%
@@ -218,19 +197,10 @@ aside
 	color: rgb(35,42,92);;
 }
 
-/*Donne ces caractéristiques aux vidéos intégrées par iframe*/
-iframe
-{
-	modestbranding:1;
-	showinfo:0;
-	width:auto;
-	height:100%;
-}
 
 
 /*Permet d'afficher la barre nav avec tous ces éléments flexbox*/
-.flexbar
-{
+.flexbar{
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -241,8 +211,7 @@ iframe
 
 
 /*Permet à l'item "Zelda Breath of The Wild" d'être rapproché du menu*/
-.flex
-{
+.flex{
 	display:flex;
 	justify-content: space-around;
 	align-items:baseline;
@@ -251,110 +220,26 @@ iframe
 }
 
 
-
-.imgleft
-{
-	max-width: 55%;
-	float: left;
-	box-shadow: 3px 3px 10px black;
-}
-
-.imgleftp
-{
-	max-width: 55%;
-	float: left;
-	box-shadow: 3px 3px 10px black;
-}
-
-.imgright
-{
-	max-width: 50%;
-	float: right;
-	box-shadow: 3px 3px 10px black;
-}
-
-.imgrightp
-{
-	max-width: 58%;
-	float: right;
-	box-shadow: 3px 3px 10px black;
-}
-
-.imgrightpp
-{
-	max-width: 65%;
-	float: right;
-	box-shadow: 3px 3px 10px black;
-}
-
-.cleft
-{
-	clear: left;
-}
-
-
-
-.clright
-{
-	clear: right;
-}
-
-
-
-.left
-{
-	border:  1px solid black;
-	padding-bottom: 3px;
-	padding-top: 1px;
-	max-width: 55%;
-	float: left;
-	border-radius: 50px/35px;
-}
-
-.right
-{
-	border:  1px solid black;
-	padding-bottom: 3px;
-	padding-top: 1px;
-	max-width: 60%;
-	float: right;
-	border-radius: 50px/35px;
-}
-
-
-.item{
-  width:550px;
-  text-align:center;
-  display:block;
-  background-color: transparent;
-  border: 1px solid transparent;
-  margin-bottom: 1px;
-  float:left;
-}
-
-.dropdownlog {
-
+/*bouton contact*/
+.dropdownlog{
 	text-shadow: 2px 2px 14px #76d09c ;
   position: fixed;
 	top: 0;
 	margin-right: 30px;
 	margin-top: 23px;
 	right: 0;
-	background-color: transparent;
 	border-color: black;
-	border-style: hidden;
-	border-width: thin;
 	width: 100px;
 	font-size: 100%;
-	font-family:fangsong;
 	cursor:pointer;
-	border-radius:50px/35px;
 	text-decoration: none;
   display: inline-block;
 	z-index:200;
 }
 
-.dropdown-aff {
+
+/*contenu du bouton contact*/
+.dropdown-aff{
   display: none;
   position: absolute;
 	margin-left: 22px;
@@ -367,28 +252,25 @@ iframe
 	border-radius: 10px/5px;
 }
 
+
+/*affichage des logos du contact*/
 .dropdownlog:hover .dropdown-aff {
   display: block;
 }
 
 
-.buttonbartodrop:hover .buttondrop{
-	display:block;
-}
-
-.logofont
-{
+/*Set la couleur pour le petit contact*/
+#Contact{
 	color: rgb(152,251,152);
 }
 
-.logo
-{
+/*Pour chaque logo, défini un border-radius*/
+.logo{
 	border-radius: 20px/15px;
 }
 
-footer
-{
-
+/*permet de fixer et personnaliser le footer*/
+footer{
 	text-shadow: 2px 2px #76d09c ;
 	text-align:center;
   position: fixed;
@@ -401,12 +283,12 @@ footer
 }
 
 
-
+/*spécifie une ombre pour les h2*/
 h2{
 	text-shadow: 1px 1px 3px #010a59  ;
 }
 
-
+/*spécifie une ombre pour les h3*/
 h3{
 	text-shadow: 1px 1px 2px #010a59;
 }
@@ -420,7 +302,7 @@ h3{
 }
 
 
-
+/*permet d'afficher la map Korogu dans l'onglet map*/
 .korokmap{
 	modestbranding:1;
 	showinfo:0;
@@ -428,30 +310,27 @@ h3{
 	height: 620px;
 }
 
-
-.dropbtn {
-  text-shadow: 2px 2px 14px #76d09c ;
-	background-color: black;
-	border-color: black;
-	border-style: hidden;
-	border-width: thin;
-	width: 128px;
-	font-size: 100%;
-	font-family:fangsong;
+/*aspect physique du bouton*/
+.dropbtn{
 	display: block;
-	cursor:pointer;
+	width: 128px;
 	color: rgb(90,180,185);
+	text-shadow: 2px 2px 14px #76d09c ;
+	background-color: black;
+	font-size: 100%;
+	font-family: fangsong;
+	cursor:pointer;
 	text-decoration: none;
 	border-right: 1px solid #98fb98;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
+/*affiche le bloc*/
+.dropdown{
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+/*contenu du bouton*/
+.dropdown-content{
   display: none;
 	background-color: black;
 	border-color: black;
@@ -460,7 +339,6 @@ h3{
 	color: rgb(152,251,152);
 	width: 128px;
 	font-size: 100%;
-	font-family:fangsong;
 	cursor:pointer;
 	text-decoration: none;
 	position: absolute;
@@ -468,18 +346,21 @@ h3{
 	border-radius: 10px/5px;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
+/*liens à défiler du bouton*/
+.dropdown-content a{
   color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #e1f1c1}
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+/*change la couleur lorsque l'on passe dessus*/
+.dropdown-content a:hover{
+	background-color: #e1f1c1
+}
+
+/*affiche le menu quand on passe dessus*/
+.dropdown:hover .dropdown-content{
   display: block;
 }
