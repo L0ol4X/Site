@@ -4,6 +4,8 @@
 	max-width: 55%;
 	float: left;
 	box-shadow: 3px 3px 10px black;
+	margin-right: 40px;
+	position: relative;
 }
 
 
@@ -12,6 +14,8 @@
 	max-width: 55%;
 	float: left;
 	box-shadow: 3px 3px 10px black;
+	margin-right: 40px;
+	position: relative;
 }
 
 
@@ -20,6 +24,8 @@
 	max-width: 50%;
 	float: right;
 	box-shadow: 3px 3px 10px black;
+	margin-left: 40px;
+	position: relative;
 }
 
 
@@ -28,6 +34,8 @@
 	max-width: 58%;
 	float: right;
 	box-shadow: 3px 3px 10px black;
+	margin-left: 40px;
+	position: relative;
 }
 
 
@@ -36,6 +44,8 @@
 	max-width: 65%;
 	float: right;
 	box-shadow: 3px 3px 10px black;
+	margin-left: 40px;
+	position: relative;
 }
 
 
@@ -70,4 +80,12 @@
 	max-width: 60%;
 	float: right;
 	border-radius: 50px/35px;
+}
+
+.descriptiond{
+	color : rgb(35,42,92);
+	text-align: justify;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 20px;
 }
