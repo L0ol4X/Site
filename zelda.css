@@ -15,7 +15,7 @@ header{
 	background-color: black;
 	color: rgb(152,251,152);
 	margin: auto;
-	border-radius: 50px/35px;
+	border-radius: 20px/20px;
 	z-index: 100;
 }
 
@@ -80,7 +80,7 @@ p{
 /*Effets de base apportés aux images*/
 img{
 	align-content: center;
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
 	border-radius: 50px/35px;
 }
@@ -91,7 +91,7 @@ h1{
 	margin-right: 16%;
 	margin-left: 16%;
 	color: rgb(152,251,152);
-	border-radius: 50px/35px;
+	border-radius: 20px/20px;
 	padding-bottom: 4px;
 	height: 50px;
 	text-shadow: 2px 2px 14px #76d09c ;
@@ -99,23 +99,22 @@ h1{
 }
 
 
-/*Effets donnés à aside*/
-aside{
-	border-style: inset;
-	border-color: rgb(60,119,113);
-	margin-left: 20%;
-	margin-right: 20%;
+
+/*Permet d'afficher les listes de cette manière*/
+ul{
+	margin-left: 33%;
+	margin-right: 35%;
+	color: rgb(35,42,92);
 }
 
 
-/*Permet d'afficher les listes de cette manière*/
-.ul{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	list-style-type: '⚔';
-	color: rgb(35,42,92);;
+/*les éléments de la liste seront de la sorte*/
+li{
+	margin-left: 29%;
+	margin-right: 33%;
+	display: list-item;
+  text-align: -webkit-match-parent;
+	list-style-type: '∴';
 }
 
 
@@ -160,6 +159,9 @@ boutons*/
 
 /*Effets ajoutés à certains liens pour que cela ressemble à un bouton sur lequel on
 peut cliquer*/
+/*
+border-radius: 50px/35px; hésitation avec ce border radius
+*/
 .button{
 	text-shadow: 2px 2px 14px #76d09c ;
 	background-color: black;
@@ -171,7 +173,7 @@ peut cliquer*/
 	font-size: 100%;
 	display:block;
 	cursor:pointer;
-	border-radius: 50px/35px;
+	border-radius: 10px/5px;
 	text-decoration: none;
 }
 
@@ -328,10 +330,17 @@ h3{
 
 /*change la couleur lorsque l'on passe dessus*/
 .dropdown-content a:hover{
-	background-color: #e1f1c1
+	background-color: #e1f1c1;
+	border-radius: 10px/10px;
 }
 
 /*affiche le menu quand on passe dessus*/
 .dropdown:hover .dropdown-content{
   display: block;
+	border-radius: 11px/11px;
+}
+
+/*custom les images de objects.html*/
+td img{
+	border-radius: 10px/5px;
 }
