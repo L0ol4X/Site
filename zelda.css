@@ -29,12 +29,16 @@ table, td, th{
 	border-style: solid;
 }
 
+/*custom les images de objects.html*/
+td img{
+	border-radius: 10px/5px;
+}
 
 /*Set la taille de la vidéo et son visuel puis indique qu'il faut qu'elle passe en arrière plan*/
 video{
 	width: 40%;
 	height: auto;
-	border-radius: 50px/35px;
+	border-radius: 20px/20px;
 	z-index:10;
 }
 
@@ -256,6 +260,21 @@ footer{
 }
 
 
+.arrow{
+	text-align:center;
+	text-decoration: none;
+  position: fixed;
+  bottom:16px;
+  right: 80px;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 70px/70px;
+  display:inline-block;
+  font-size:20px;
+	height: 30px;
+	width: 40px;
+}
+
 /*spécifie une ombre pour les h2*/
 h2{
 	text-shadow: 1px 1px 3px #010a59  ;
@@ -338,9 +357,4 @@ h3{
 .dropdown:hover .dropdown-content{
   display: block;
 	border-radius: 11px/11px;
-}
-
-/*custom les images de objects.html*/
-td img{
-	border-radius: 10px/5px;
 }
