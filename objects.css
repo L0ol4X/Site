@@ -17,9 +17,17 @@
 
 /*classe utilisée dans objects.html afin d'afficher le menu sur la droite*/
 .fixed{
-	right:0;
-	top: 0;
+	right:20px;
+	top: 20px;
 	position: fixed;
-	margin-right:1%;
-	padding-right:2%;
+}
+
+
+.dropdown-content .button{
+	background-color: transparent;
+	border : 0px hidden white;
+}
+
+.dropdown .dropbtn{
+	color: rgb(152,251,152);
 }
