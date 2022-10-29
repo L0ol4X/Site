@@ -10,7 +10,7 @@ body{
 
 /*image de fond*/
 .bg{
-	background-image: url('img/bg2.png') ;
+	background-image: url('img/bg.png') ;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;

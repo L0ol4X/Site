@@ -33,7 +33,6 @@
 	font-family: fangsong;
 	cursor:pointer;
 	text-decoration: none;
-	border-right: 1px solid #98fb98;
 	border-radius: 10px/5px;
 }
 
@@ -45,5 +44,3 @@
 .dropdown .dropbtno{
 	color: rgb(152,251,152);
 }
-
-
