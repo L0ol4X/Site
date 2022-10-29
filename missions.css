@@ -14,11 +14,12 @@ iframe{
 	align-items:baseline;
 	flex-direction:row;
 	margin-bottom: -2px;
+	flex-wrap: wrap;
 }
 
 /*Permet d'afficher de la sorte chaque vidéo et sa description*/
 .item{
-  width:550px;
+  width: 565px;
   text-align:center;
   display:block;
   background-color: transparent;

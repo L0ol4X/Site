@@ -114,8 +114,8 @@ h1{
 
 /*Permet d'afficher les listes de cette manière*/
 ul{
-	margin-left: 33%;
-	margin-right: 35%;
+	margin-left: 26%;
+	margin-right: 28%;
 	color: rgb(35,42,92);
 	list-style-type: '∴';
 }
@@ -123,8 +123,8 @@ ul{
 
 /*les éléments de la liste seront de la sorte*/
 li{
-	margin-left: 29%;
-	margin-right: 33%;
+	margin-left: 14%;
+	margin-right: 18%;
 	display: list-item;
   text-align: -webkit-match-parent;
 	/*list-style-type: '∴';*/
@@ -139,6 +139,7 @@ li{
 	flex-direction:row;
 	margin-bottom: -2px;
 	z-index: 10;
+	flex-wrap:wrap;
 }
 
 
@@ -149,6 +150,7 @@ li{
 	align-items:baseline;
 	flex-direction:row;
 	margin-bottom: -2px;
+	flex-wrap:wrap;
 }
 
 
@@ -309,8 +311,8 @@ h3{
 .korokmap{
 	modestbranding:1;
 	showinfo:0;
-	width: 1010px;
-	height: 620px;
+	width: 90%;
+	height : 700px;
 }
 
 /*aspect physique du bouton*/
