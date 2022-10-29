@@ -1,3 +1,9 @@
+.bg{
+	background-image: url('img/bg2.png') ;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 /*clear le positionement de gauche*/
 .cleft{
@@ -14,6 +20,7 @@
 
 .descriptiond{
 	color : rgb(35,42,92);
+	font-size : 23px;
 	text-align: justify;
 	margin-right: 40px;
 	margin-left: 40px;
@@ -21,7 +28,7 @@
 
 
 .gallery {
-  border: 1px solid black;
+  border: 1px solid #062F4F;
 	border-radius: 15px/13px;
 }
 
@@ -39,9 +46,6 @@
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 .responsivel {
   padding: 0 6px;
