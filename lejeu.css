@@ -1,54 +1,4 @@
 
-/*positionne l'image à gauche*/
-.imgleft{
-	max-width: 55%;
-	float: left;
-	box-shadow: 3px 3px 10px black;
-	margin-right: 40px;
-	position: relative;
-}
-
-
-/*positionne les petites images à gauche*/
-.imgleftp{
-	max-width: 55%;
-	float: left;
-	box-shadow: 3px 3px 10px black;
-	margin-right: 40px;
-	position: relative;
-}
-
-
-/*positionne les images à droite*/
-.imgright{
-	max-width: 50%;
-	float: right;
-	box-shadow: 3px 3px 10px black;
-	margin-left: 40px;
-	position: relative;
-}
-
-
-/*positionne les petites images à droite*/
-.imgrightp{
-	max-width: 58%;
-	float: right;
-	box-shadow: 3px 3px 10px black;
-	margin-left: 40px;
-	position: relative;
-}
-
-
-/*positionne les très petites images à droite*/
-.imgrightpp{
-	max-width: 65%;
-	float: right;
-	box-shadow: 3px 3px 10px black;
-	margin-left: 40px;
-	position: relative;
-}
-
-
 /*clear le positionement de gauche*/
 .cleft{
 	clear: left;
@@ -61,31 +11,66 @@
 }
 
 
-/*Stylise les images/bloc de gauche*/
-.left{
-	border:  1px solid black;
-	padding-bottom: 3px;
-	padding-top: 1px;
-	max-width: 55%;
-	float: left;
-	border-radius: 50px/35px;
-}
-
-
-/*stylise les images/bloc de droite*/
-.right{
-	border:  1px solid black;
-	padding-bottom: 3px;
-	padding-top: 1px;
-	max-width: 60%;
-	float: right;
-	border-radius: 50px/35px;
-}
 
 .descriptiond{
 	color : rgb(35,42,92);
 	text-align: justify;
 	margin-right: 40px;
 	margin-left: 40px;
-	margin-top: 20px;
+}
+
+
+.gallery {
+  border: 1px solid black;
+	border-radius: 15px/13px;
+}
+
+
+.gallery img {
+  width: 100%;
+  height: auto;
+	max-width:99%;
+	padding-top:3px;
+	border-radius: 15px/13px
+}
+
+.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsivel {
+  padding: 0 6px;
+	float: left;
+  width: 45%;
+}
+
+
+.responsiver {
+  padding: 0 6px;
+	float: right;
+  width: 45%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
