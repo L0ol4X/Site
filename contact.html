@@ -1,34 +1,72 @@
 <!DOCTYPE html>
 <html>
-<header>
-	<link rel="stylesheet" href="zelda.css" type="text/css">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Contact</title>
-</header>
-	<form action="contact.php" method="POST">
-		<label for="nom">Nom : </label>
-		<input type="text" name="nom" id="nom"/>
-		<br/>
-		<br/>
-		<label for="prénom">Prénom : </label>
-		<input type="text" name="prénom" id="prénom"/>
-		<br/>
-		<br/>
-		<label for="mail">Email : </label>
-		<input type="email" name="mail" id="mail"/>
-		<br/>
-		<br/>
-		<p>Souhaitez-vous recevoir des informations par mail ?</p>
-		<select name="infos">
-			<option value="Oui">Oui</option>
-			<option value="Non">Non</option>
-		</select>
-		<br/>
-		<br/>
-		<input type="submit" value="Valider"/>
-	</form>
+	<head>
+		<link rel="stylesheet" href="zelda.css" type="text/css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contact</title>
+	</head>
 
+	<body>
+		<a class="button" href="index.html">Home</a>
+		<h1>Formulaire de contact</h1>
+		<form action="contact.php" method="POST">
+			<label for="nom">Nom : </label>
+			<input type="text" required name="nom" id="nom"/>
+			<br/>
+			<br/>
+			<label for="prénom">Prénom : </label>
+			<input type="text" name="prénom" id="prénom"/>
+			<br/>
+			<br/>
+			<label for="mail">Email : </label>
+			<input type="email" required name="mail" id="mail"/>
+			<br/>
+			<br/>
+			<label for="tel">Téléphone : </label>
+			<input type="tel" name="tel" id="tel"/>
+			<br/>
+			<br/>
+			<label>Motif de contact :</label> 
+			<select name="mode">			
+				<option value="feedback" id="feedback" name="feedback">Feedback</option>
+				<option value="plainte" id="plainte" name="plainte">Plainte</option>
+				<option value="bug" id="bug" name="bug">Report un bug</option>
+				<option value="suggestion" id="suggestion" name="suggestion">Suggestion</option>
+				<option  value="autre" id="autre" name="autre">Autre</option>
+			</select>
+			<br/>
+			<br/>
+			<label for="jour">Jour de préférence : </label>
+	  		<input type="date" id="date" name="date">
+			<br/>
+			<br/>
+			<label for="time">Horaire de préférence : </label>
+	  		<input type="time" id="time" name="time">
+			<br/>
+			<br/>
+			<label>S'agit-il de votre première demande? :</label>
+			<label for="oui"> Oui</label>
+			<input type="radio" name="choix"/>
+			<label for="non"> Non</label> 
+			<input type="radio" name="choix">
+			<br>
+			<br>
+			<p>
+			<textarea required cols="55" rows="17">Votre message ici</textarea>
+			</p>
+
+			<label>Souhaitez-vous recevoir des informations par mail ?</label>
+			<select name="infos">
+				<option value="Oui" id="Oui">Oui</option>
+				<option value="Non" id="Non">Non</option>
+			</select>
+			<br/>
+			<br/>
+			<input required type="submit" value="Valider"/>
+			<input required type="reset" value="Reset"/>
+		</form>
+</body>
 
 
 </html>

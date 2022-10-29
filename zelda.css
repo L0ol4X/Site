@@ -36,7 +36,7 @@ td img{
 
 /*Set la taille de la vidéo et son visuel puis indique qu'il faut qu'elle passe en arrière plan*/
 video{
-	width: 40%;
+	width: 65%;
 	height: auto;
 	border-radius: 20px/20px;
 	z-index:10;
@@ -109,6 +109,7 @@ ul{
 	margin-left: 33%;
 	margin-right: 35%;
 	color: rgb(35,42,92);
+	list-style-type: '∴';
 }
 
 
@@ -118,7 +119,7 @@ li{
 	margin-right: 33%;
 	display: list-item;
   text-align: -webkit-match-parent;
-	list-style-type: '∴';
+	/*list-style-type: '∴';*/
 }
 
 
@@ -260,6 +261,7 @@ footer{
 }
 
 
+/*flèche positionnement et look*/
 .arrow{
 	text-align:center;
 	text-decoration: none;
@@ -268,6 +270,7 @@ footer{
   right: 80px;
 	background-color: black;
 	border: 1px solid black;
+	padding-bottom: 5px;
 	border-radius: 70px/70px;
   display:inline-block;
   font-size:20px;
@@ -314,7 +317,6 @@ h3{
 	cursor:pointer;
 	text-decoration: none;
 	border-right: 1px solid #98fb98;
-	border-radius: 10px/5px;
 }
 
 /*affiche le bloc*/
@@ -341,7 +343,6 @@ h3{
 .dropdown-content a{
   color: white;
 	padding-top: 5px;
-	padding-right: 5px;
   text-decoration: none;
   display: block;
 }
@@ -355,4 +356,16 @@ h3{
 /*affiche le menu quand on passe dessus*/
 .dropdown:hover .dropdown-content{
   display: block;
+}
+
+/*Met la couleur au texte dans le contact*/
+label{
+	color : rgb(35,42,92);
+}
+
+/*Stylise le php*/
+.php{
+	display : flex;
+	justify-content:  center;
+	align-items:  center;
 }

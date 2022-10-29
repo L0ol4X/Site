@@ -22,12 +22,28 @@
 	position: fixed;
 }
 
+/*le bouton stylisé*/
+.dropbtno{
+	display: block;
+	width: 128px;
+	color: rgb(90,180,185);
+	text-shadow: 2px 2px 14px #76d09c ;
+	background-color: black;
+	font-size: 100%;
+	font-family: fangsong;
+	cursor:pointer;
+	text-decoration: none;
+	border-right: 1px solid #98fb98;
+	border-radius: 10px/5px;
+}
 
 .dropdown-content .button{
 	background-color: transparent;
 	border : 0px hidden white;
 }
 
-.dropdown .dropbtn{
+.dropdown .dropbtno{
 	color: rgb(152,251,152);
 }
+
+
