@@ -118,6 +118,8 @@ ul{
 	margin-right: 28%;
 	color: rgb(35,42,92);
 	list-style-type: '∴';
+	border: 1px solid black;
+	border-radius: 15px/10px;
 }
 
 
