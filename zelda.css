@@ -58,6 +58,7 @@ figure{
 	margin-top:-0.1%;
 }
 
+
 /*Définit le visuel des figure caption*/
 figcaption{
 	border-color :black;
@@ -71,13 +72,18 @@ figcaption{
 
 
 /*Lorsqu'un lien n'est pas encore visité*/
-a:link{
+a{
 	color:  rgb( 94, 189, 179 );
+}
+
+/*quand on passe dessus*/
+a:hover{
+	color:  rgb( 94, 149, 149 );
 }
 
 /*Une fois que le lien a été visité*/
 a:visited{
-	color: rgb(90,180,185);
+	color: rgb(90,160,185);
 }
 
 /*Effets sur toutes les balises de type p*/
@@ -87,6 +93,11 @@ p{
 	margin-right: 21%;
 	text-align: justify;
 	text-align-last: center ;
+}
+
+aside{
+	float:right;
+	width : 20%
 }
 
 /*Effets de base apportés aux images*/
@@ -110,6 +121,20 @@ h1{
 	text-align: center;
 }
 
+/*spécifie une ombre pour les h2*/
+h2{
+	text-shadow: 1px 1px 3px #010a59  ;
+}
+
+.clright h2{
+	margin-left: 20%;
+}
+
+
+/*spécifie une ombre pour les h3*/
+h3{
+	text-shadow: 1px 1px 2px #010a59;
+}
 
 
 /*Permet d'afficher les listes de cette manière*/
@@ -122,6 +147,9 @@ ul{
 	border-radius: 15px/10px;
 }
 
+aside ul{
+	padding-left:15px;
+}
 
 /*les éléments de la liste seront de la sorte*/
 li{
@@ -132,6 +160,23 @@ li{
 	/*list-style-type: '∴';*/
 }
 
+
+aside li{
+	margin-left:5px;
+}
+
+/*permet de fixer et personnaliser le footer*/
+footer{
+	text-shadow: 2px 2px #76d09c ;
+	text-align:center;
+  position: fixed;
+  bottom:6px;
+  right: 0;
+  display:inline-block;
+  vertical-align:top;
+  font-size:13px;
+	height: 25px;
+}
 
 /*Permet d'afficher la barre nav avec tous ces éléments flexbox*/
 .flexbar{
@@ -259,19 +304,6 @@ droite de délimitation*/
 	border-radius: 20px/15px;
 }
 
-/*permet de fixer et personnaliser le footer*/
-footer{
-	text-shadow: 2px 2px #76d09c ;
-	text-align:center;
-  position: fixed;
-  bottom:6px;
-  right: 0;
-  display:inline-block;
-  vertical-align:top;
-  font-size:13px;
-	height: 25px;
-}
-
 
 /*flèche positionnement et look*/
 .arrow{
@@ -290,15 +322,6 @@ footer{
 	width: 40px;
 }
 
-/*spécifie une ombre pour les h2*/
-h2{
-	text-shadow: 1px 1px 3px #010a59  ;
-}
-
-/*spécifie une ombre pour les h3*/
-h3{
-	text-shadow: 1px 1px 2px #010a59;
-}
 
 
 .text{
@@ -380,4 +403,15 @@ label{
 	display : flex;
 	justify-content:  center;
 	align-items:  center;
+}
+
+@media only screen and (max-width: 800px) {
+  div.fleft {
+    float: none;
+  }
+}
+
+div.fleft{
+	width:80%;
+	float:left;
 }
