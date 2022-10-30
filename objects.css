@@ -44,3 +44,13 @@
 .dropdown .dropbtno{
 	color: rgb(152,251,152);
 }
+
+
+img:hover:after{
+	content:attr(title);
+	position: absolute;
+  width:200px;
+  height:1.25rem;
+  background-color: blue;
+  color:white;
+}

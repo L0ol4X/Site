@@ -6,12 +6,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Contact</title>
 	</head>
-	
+
 	<a class="button" href="index.html">Home</a>
  	<div class="php">
 	 	<?php
-			echo("<p>Merci de votre retour !</p>");
+			if(($_POST['nom'] != "") && ($_POST['prénom'] != "") && ($_POST['mail'] != "") && ($_POST['tel'] != "")){
+				echo("<p>Merci de votre retour !</p>");
+			}
+			else {
+				echo("<p>Un ou plusieurs champs saisis sont invalides, veuillez les re-saisir</p>")
+			}
 		?>
 	</div>
 </html>
-
